@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+}
+.section1 {
+  margin: 69px 96px 0px 96px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 316px;
+  height: 126px;
+}
+
+.navigation {
+  display: flex;
+  gap: 42px;
+  padding: 10px;
+}
+
+.navigation a {
+  font-family: "PT Sans Caption", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 36px;
+  text-decoration: none;
+  color: black;
+  letter-spacing: 0;
+}
+
+.main-div {
+  margin-top: 73px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  min-height: 70vh;
+}
+
+.main-div h1 {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 144px;
+  line-height: 144px;
+}
+
+.main-div p {
+  font-family: "PT Sans Caption", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 36px;
+  margin-top: 32px;
+}
+
+.socials {
+  margin-top: 54px;
+  display: flex;
+  gap: 32px;
+}
+
+.down {
+  margin-top: 231px;
+  /* padding: 32.5px 54.5px; */
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  width: 424px;
+  height:101px;
+  font-size: 36px;
+  letter-spacing: 0%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right {
+  display: flex;
+  justify-content: flex-start; /* Прижать картинку вправо (или center — по центру) */
+  align-items: flex-start;     /* Прижать вниз (по умолчанию flex-start — сверху) */
+}
+
+.right img {
+  border-radius: 857px 40px 40px 40px;
+  width: 758px;
+  height: 806px;
+  object-fit:cover;
+  /* Сдвигаем содержимое картинки внутри скругленной рамки */
+  object-position: left center; 
+}
+
+.section2{
+  margin-top: 134px;
+}
+
+.main-directions{
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 96px;
+  line-height: 144px;
+}
+
+
+.directions-container{
+  margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+
+}
+
+
+
+.directions-container img{
+  width: 348px;
+  height: 348px;
+  object-fit:cover;
+  /* Сдвигаем содержимое картинки внутри скругленной рамки */
+  object-position: center; 
+}
+
+
+#img3 img{
+  /* object-fit:cover; */
+  object-position: right; 
+}
+
+#img4 img{
+  /* object-fit:cover; */
+  object-position:top left; 
+}
+
